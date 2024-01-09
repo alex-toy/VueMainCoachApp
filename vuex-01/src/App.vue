@@ -19,7 +19,9 @@ export default {
   },
   methods:{
     addOne() {
-      this.$store.state.counter += 10;
+      // this.$store.state.counter += 10;
+      // this.$store.commit('increment');
+      this.$store.commit('increase', {value : 10});
     }
   }
 };

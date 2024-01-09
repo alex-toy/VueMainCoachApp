@@ -6,7 +6,8 @@
 export default {
     methods:{
         AddOne(){
-            this.$store.state.counter++;
+            // this.$store.state.counter++;
+            this.$store.commit('increment');
         }
     }
 }

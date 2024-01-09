@@ -1,4 +1,7 @@
-button,
+<template>
+</template>
+
+<style scoped>button,
 a {
   text-decoration: none;
   padding: 0.75rem 1.5rem;
@@ -38,3 +41,4 @@ button:active {
 .outline:active {
   background-color: #edd2ff;
 }
+</style>

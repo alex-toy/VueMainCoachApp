@@ -1,3 +1,7 @@
+<template>
+</template>
+
+<style scoped>button,
 .badge {
   background-color: #ccc;
   color: #252525;
@@ -21,3 +25,4 @@
   background-color: #8d006e;
   color: white;
 }
+</style>
